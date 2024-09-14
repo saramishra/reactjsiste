@@ -1,6 +1,6 @@
 // src/App.js
 import React from "react";
-import Footer from "./components/Footer"; // Import the Footer component
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App; // Ensure this line is present
+export default App;
