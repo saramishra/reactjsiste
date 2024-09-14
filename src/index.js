@@ -1,19 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+// src/index.js
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App"; // Import the main App component
 
-function App()
-{
- return (
-  <h1>YEPPPP</h1>
- ) 
-}
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-
-    <App/>
+    <App />
   </React.StrictMode>
 );
-
-
-
